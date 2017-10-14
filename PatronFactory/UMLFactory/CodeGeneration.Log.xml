@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Registro de generación de código/transformación de texto">
+  <MessageClass Name="Message" Label="Mensaje" Option="Mostrar mensajes informativos" />
+  <MessageClass Name="Warning" Label="Advertencia" Option="Mostrar advertencias" />
+  <MessageClass Name="Error" Label="Error" Option="Mostrar errores" />
+  <MessageClass Name="Property" Label="Propiedad" Option="Mostrar metadatos" />
+  <MessageClass Name="Diagnostic" Label="Mensaje" Option="Mostrar mensajes de diagnóstico" />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="High" Text="Se inició la generación de código o la transformación de texto." />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Diagnostic" Text="Nombre = ClassTemplate" />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Diagnostic" Text="Sobrescribir = True" />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Diagnostic" Text="ProjectPath = ..\UMLFactoryLib\UMLFactoryLib.csproj" />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Medium" Text="Enlace de plantilla de texto de UMLFactory: 'ClassTemplate' aplicará ClassTemplate.t4 a: 'UMLFactory::LoggerFactory' -  (Class), 'UMLFactory::TypeLogger' -  (Class), 'UMLFactory::DatabaseLogger' -  (Class), 'UMLFactory::SocketLogger' -  (Class), 'UMLFactory::FileLogger ' -  (Class), 'UMLFactory::DatabaseStream' -  (Class), 'UMLFactory::SocketStream' -  (Class), 'UMLFactory::FileStream' -  (Class) " />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Medium" Text="'UMLFactory::LoggerFactory' -  (Class): correcto (archivo reemplazado) - D:\Examen DyP\PatronFactory\UMLFactoryLib\GeneratedCode\LoggerFactory.cs" />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Medium" Text="'UMLFactory::TypeLogger' -  (Class): correcto (archivo reemplazado) - D:\Examen DyP\PatronFactory\UMLFactoryLib\GeneratedCode\TypeLogger.cs" />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Medium" Text="'UMLFactory::DatabaseLogger' -  (Class): correcto (archivo reemplazado) - D:\Examen DyP\PatronFactory\UMLFactoryLib\GeneratedCode\DatabaseLogger.cs" />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Medium" Text="'UMLFactory::SocketLogger' -  (Class): correcto (archivo reemplazado) - D:\Examen DyP\PatronFactory\UMLFactoryLib\GeneratedCode\SocketLogger.cs" />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Medium" Text="'UMLFactory::FileLogger ' -  (Class): correcto (archivo reemplazado) - D:\Examen DyP\PatronFactory\UMLFactoryLib\GeneratedCode\FileLogger .cs" />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Medium" Text="'UMLFactory::DatabaseStream' -  (Class): correcto (archivo reemplazado) - D:\Examen DyP\PatronFactory\UMLFactoryLib\GeneratedCode\DatabaseStream.cs" />
+  <Message Timestamp="2017-10-14T10:55:19" Importance="Medium" Text="'UMLFactory::SocketStream' -  (Class): correcto (archivo reemplazado) - D:\Examen DyP\PatronFactory\UMLFactoryLib\GeneratedCode\SocketStream.cs" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Medium" Text="'UMLFactory::FileStream' -  (Class): correcto (archivo reemplazado) - D:\Examen DyP\PatronFactory\UMLFactoryLib\GeneratedCode\FileStream.cs" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="Nombre = InterfaceTemplate" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="Sobrescribir = True" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="ProjectPath = ..\UMLFactoryLib\UMLFactoryLib.csproj" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Medium" Text="Enlace de plantilla de texto de UMLFactory: 'InterfaceTemplate' aplicará InterfaceTemplate.t4 a: 'UMLFactory::Logger' -  (Interface), 'UMLFactory::Stream' -  (Interface) " />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Medium" Text="'UMLFactory::Logger' -  (Interface): correcto (archivo reemplazado) - D:\Examen DyP\PatronFactory\UMLFactoryLib\GeneratedCode\Logger.cs" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Medium" Text="'UMLFactory::Stream' -  (Interface): correcto (archivo reemplazado) - D:\Examen DyP\PatronFactory\UMLFactoryLib\GeneratedCode\Stream.cs" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="Nombre = StructTemplate" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="Sobrescribir = True" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="ProjectPath = ..\UMLFactoryLib\UMLFactoryLib.csproj" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Medium" Text="Enlace de plantilla de texto de UMLFactory: 'StructTemplate' aplicará StructTemplate.t4 a: 'UMLFactory::LoggerFactory' -  (Class), 'UMLFactory::TypeLogger' -  (Class), 'UMLFactory::DatabaseLogger' -  (Class), 'UMLFactory::SocketLogger' -  (Class), 'UMLFactory::FileLogger ' -  (Class), 'UMLFactory::DatabaseStream' -  (Class), 'UMLFactory::SocketStream' -  (Class), 'UMLFactory::FileStream' -  (Class) " />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::LoggerFactory' -  (Class): no se generó ningún archivo porque el método 'AppliesToElement' de la plantilla 'StructTemplate.t4' se evaluó como false." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::TypeLogger' -  (Class): no se generó ningún archivo porque el método 'AppliesToElement' de la plantilla 'StructTemplate.t4' se evaluó como false." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::DatabaseLogger' -  (Class): no se generó ningún archivo porque el método 'AppliesToElement' de la plantilla 'StructTemplate.t4' se evaluó como false." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::SocketLogger' -  (Class): no se generó ningún archivo porque el método 'AppliesToElement' de la plantilla 'StructTemplate.t4' se evaluó como false." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::FileLogger ' -  (Class): no se generó ningún archivo porque el método 'AppliesToElement' de la plantilla 'StructTemplate.t4' se evaluó como false." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::DatabaseStream' -  (Class): no se generó ningún archivo porque el método 'AppliesToElement' de la plantilla 'StructTemplate.t4' se evaluó como false." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::SocketStream' -  (Class): no se generó ningún archivo porque el método 'AppliesToElement' de la plantilla 'StructTemplate.t4' se evaluó como false." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::FileStream' -  (Class): no se generó ningún archivo porque el método 'AppliesToElement' de la plantilla 'StructTemplate.t4' se evaluó como false." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="La selección incluía 8 elementos que no estaban enlazados a una plantilla." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::' -  (Dependency): sin plantilla enlazada." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::' -  (InterfaceRealization): sin plantilla enlazada." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::' -  (InterfaceRealization): sin plantilla enlazada." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::' -  (InterfaceRealization): sin plantilla enlazada." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::' -  (InterfaceRealization): sin plantilla enlazada." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::' -  (InterfaceRealization): sin plantilla enlazada." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::' -  (InterfaceRealization): sin plantilla enlazada." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="Diagnostic" Text="'UMLFactory::' -  (InterfaceRealization): sin plantilla enlazada." />
+  <Message Timestamp="2017-10-14T10:55:20" Importance="High" Text="Generación de código completa. Errores: 0. Advertencias: 0." />
+</Log>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="2f031327-5a14-48a2-a4c0-6d595a1a2c8a" name="UMLPatronAbstracFactory" linkedPackageId="27bdc17b-6d10-49c6-8ab4-78f4dabb14d8" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="32b6977a-b20a-43a6-a286-63995e71a36d">
+      <profileInstance Id="b15520e0-e397-47a1-a3d3-fa7c4312cc50" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="1c6364da-cc2a-43ec-894d-8035fa0f8930">
+      <profileInstance Id="9e57ffcb-f4da-41f5-ba03-734501b581c3" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5c20a6c1-1a9a-4fcf-b0b8-ed5823ecf8d9" name="AirPlaneService" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="059eb159-2500-448c-b413-9a1e038a792a" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="031a2e16-27e7-4d62-8228-45d0502033a9" name="VacationFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7e31fae7-7f34-49b6-8784-6bd528383c87" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="aaf6bd08-d446-4940-9fca-11ff073d6800" name="Hotel" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b74ee8a9-d959-4ffe-968f-fe1240b74916" />
+        <ownedOperations>
+          <operation Id="162af596-447e-4201-9124-25535f2305b8" name="Operation1" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0230fc42-7ed1-4752-80e9-d98050cbdc7b" />
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c5c4eedb-fd62-4137-b96f-39251a91f92c" name="HotelInfo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8d0b2e5c-bcf6-4d82-8cd3-5d4c206d14d1" />
+        <suppliersInternal>
+          <interfaceRealization Id="c24f35e0-82e0-4c03-9911-327db4dbd1b0">
+            <interfaceMoniker Id="aaf6bd08-d446-4940-9fca-11ff073d6800" LastKnownName="Hotel" />
+            <elementDefinition Id="f240cabf-07d1-4a6c-9db0-1362da485f5a" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="729e75d6-095a-4c24-a246-b43474b80540" name="Operation1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a19a4e09-6c54-4b99-8551-dc3938efbf0d" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="27bdc17b-6d10-49c6-8ab4-78f4dabb14d8" name="UMLPatronAbstracFactory">
+    <elementDefinition Id="18033e4e-5dd7-4b5f-a24b-684b6402eb3f" />
+  </package>
+</logicalClassDesignerModel>

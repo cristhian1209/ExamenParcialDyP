@@ -1,0 +1,8 @@
+D:\Examen DyP\PatronFactory\ConselePatronFactory\bin\Debug\ConselePatronFactory.exe.config
+D:\Examen DyP\PatronFactory\ConselePatronFactory\bin\Debug\ConselePatronFactory.exe
+D:\Examen DyP\PatronFactory\ConselePatronFactory\bin\Debug\ConselePatronFactory.pdb
+D:\Examen DyP\PatronFactory\ConselePatronFactory\bin\Debug\UMLFactoryLib.dll
+D:\Examen DyP\PatronFactory\ConselePatronFactory\bin\Debug\UMLFactoryLib.pdb
+D:\Examen DyP\PatronFactory\ConselePatronFactory\obj\Debug\ConselePatronFactory.csprojResolveAssemblyReference.cache
+D:\Examen DyP\PatronFactory\ConselePatronFactory\obj\Debug\ConselePatronFactory.exe
+D:\Examen DyP\PatronFactory\ConselePatronFactory\obj\Debug\ConselePatronFactory.pdb
